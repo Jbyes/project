@@ -7,5 +7,6 @@ public class exit_b : MonoBehaviour
     public void exit()
     {
         Application.Quit();
+        Debug.Log("print");
     }
 }
