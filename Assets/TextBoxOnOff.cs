@@ -4,26 +4,15 @@ using UnityEngine;
 
 public class TextBoxOnOff : MonoBehaviour
 {
-    public GameObject tb1;
-    public GameObject tb2;
-    public bool onoff;
-
-    void start()
+    // Start is called before the first frame update
+    void Start()
     {
-        onoff = true;
+        
     }
 
+    // Update is called once per frame
     void Update()
     {
-        if (onoff)
-        {
-            tb1.SetActive(true);
-            tb2.SetActive(true);
-        }
-        else
-        {
-            tb1.SetActive(false);
-            tb2.SetActive(false);
-        }
+        
     }
 }
